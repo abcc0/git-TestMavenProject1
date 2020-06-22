@@ -1,17 +1,17 @@
 package com.abcc.maven.jmath;
 
 public class NumberAdditions {
-
-	public int add2numbers (int iNum1, int iNum2) {
 	
-		int	iResult = iNum1 + iNum2;
+	public static long add2numbers (long iNum1, long iNum2) {
+	
+		long	iResult = iNum1 + iNum2;
 				
 	return iResult;
 	}
 	
-	public int add3numbers (int iNum1, int iNum2, int iNum3) {
+	public static long add3numbers (long iNum1, long iNum2, long iNum3) {
 		
-		int	iResult = iNum1 + iNum2 + iNum3;
+		long	iResult = iNum1 + iNum2 + iNum3;
 				
 	return iResult;
 	}
