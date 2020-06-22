@@ -34,6 +34,15 @@ public class NumberAdditionTest {
 	}
 	
 	@Test
+	public void A2N_TestCase4() {
+	
+		//NumberAdditions TestNA;
+		//TestNA = new NumberAdditions();
+		long iResult = NumberAdditions.add2numbers(85, 25);
+		assertEquals(iResult, 100);
+	}
+	
+	@Test
 	public void A3N_TestCase1() {
 	
 		//NumberAdditions TestNA;
@@ -71,6 +80,16 @@ public class NumberAdditionTest {
 		
 		//TestNA = new NumberAdditions();
 		long iResult = NumberAdditions.add3numbers(10, 20, 30);
+		assertEquals(iResult, 60);
+	}
+	
+	@Test
+	public void A3N_TestCase5() {
+	
+		//NumberAdditions TestNA;
+		
+		//TestNA = new NumberAdditions();
+		long iResult = NumberAdditions.add3numbers(11, 20, 30);
 		assertEquals(iResult, 60);
 	}
 }
