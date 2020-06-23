@@ -46,8 +46,7 @@ public class NumberAdditionTest {
 	@Test
 	public void A3N_TestCase1() {
 	
-		//NumberAdditions TestNA;
-		
+		//NumberAdditions TestNA;		
 		//TestNA = new NumberAdditions();
 		long iResult = NumberAdditions.add3numbers(15, 25, 30);
 		assertEquals(iResult, 70);
@@ -56,8 +55,7 @@ public class NumberAdditionTest {
 	@Test
 	public void A3N_TestCase2() {
 	
-		//NumberAdditions TestNA;
-		
+		//NumberAdditions TestNA;		
 		//TestNA = new NumberAdditions();
 		long iResult1 = NumberAdditions.add3numbers(15, 25, 30);
 		long iResult2 = NumberAdditions.add3numbers(30, 18, 22);
@@ -67,8 +65,7 @@ public class NumberAdditionTest {
 	@Test
 	public void A3N_TestCase3() {
 	
-		//NumberAdditions TestNA;
-		
+		//NumberAdditions TestNA;	
 		//TestNA = new NumberAdditions();
 		long iResult = NumberAdditions.add3numbers(80, 20, 30);
 		assertEquals(iResult, 130);
@@ -77,8 +74,7 @@ public class NumberAdditionTest {
 	@Test
 	public void A3N_TestCase4() {
 	
-		//NumberAdditions TestNA;
-		
+		//NumberAdditions TestNA;		
 		//TestNA = new NumberAdditions();
 		long iResult = NumberAdditions.add3numbers(10, 20, 30);
 		assertEquals(iResult, 60);
@@ -88,10 +84,18 @@ public class NumberAdditionTest {
 	@Test
 	public void A3N_TestCase5() {
 	
-		//NumberAdditions TestNA;
-		
+		//NumberAdditions TestNA;		
 		//TestNA = new NumberAdditions();
 		long iResult = NumberAdditions.add3numbers(11, 20, 30);
 		assertEquals(iResult, 60);
+	}
+	
+	//adding new float functions
+	//@SuppressWarnings("deprecation")
+	@Test
+	public void A4N_TestCase1() {
+	
+		double dResult = NumberAdditions.add4numbers(50.12, 45.52, 66.74, 31.90);
+		assertEquals(dResult, 194.28, 0);
 	}
 }

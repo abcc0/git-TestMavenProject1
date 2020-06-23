@@ -15,5 +15,11 @@ public class NumberAdditions {
 				
 	return iResult;
 	}
-
+	
+	public static double add4numbers (double dNum1, double dNum2, double dNum3, double dNum4) {
+		
+		double dResult = dNum1 + dNum2 + dNum3 + dNum4;
+		
+	return dResult;
+	}
 }
