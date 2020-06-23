@@ -33,6 +33,7 @@ public class NumberAdditionTest {
 		assertEquals(iResult, 100);
 	}
 	
+	@Ignore
 	@Test
 	public void A2N_TestCase4() {
 	
@@ -52,15 +53,15 @@ public class NumberAdditionTest {
 		assertEquals(iResult, 70);
 	}
 	
-	@Ignore
 	@Test
 	public void A3N_TestCase2() {
 	
 		//NumberAdditions TestNA;
 		
 		//TestNA = new NumberAdditions();
-		long iResult = NumberAdditions.add3numbers(15, 25, 30);
-		assertEquals(iResult, 70);
+		long iResult1 = NumberAdditions.add3numbers(15, 25, 30);
+		long iResult2 = NumberAdditions.add3numbers(30, 18, 22);
+		assertEquals(iResult1, iResult2);
 	}
 	
 	@Test
@@ -83,6 +84,7 @@ public class NumberAdditionTest {
 		assertEquals(iResult, 60);
 	}
 	
+	@Ignore
 	@Test
 	public void A3N_TestCase5() {
 	
