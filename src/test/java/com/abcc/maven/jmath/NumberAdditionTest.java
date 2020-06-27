@@ -86,8 +86,8 @@ public class NumberAdditionTest {
 	
 		//NumberAdditions TestNA;		
 		//TestNA = new NumberAdditions();
-		long iResult = NumberAdditions.add3numbers(11, 20, 30);
-		assertEquals(iResult, 60);
+		long iResult = NumberAdditions.add3numbers(11, 50, 30);
+		assertEquals(iResult, 91);
 	}
 	
 	//adding new float functions
