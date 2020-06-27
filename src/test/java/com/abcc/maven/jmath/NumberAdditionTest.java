@@ -95,7 +95,7 @@ public class NumberAdditionTest {
 	@Test
 	public void A4N_TestCase1() {
 	
-		double dResult = NumberAdditions.add4numbers(50.12, 45.52, 66.74, 31.90);
-		assertEquals(dResult, 194.28, 0);
+		double dResult = NumberAdditions.add4numbers(56.12, 45.52, 66.74, 31.90);
+		assertEquals(dResult, 200.28, 0);
 	}
 }
